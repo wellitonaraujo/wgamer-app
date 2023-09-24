@@ -1,6 +1,6 @@
 # Wgamer App with Swift/SwiftUI
 
-### Product Screen
-### Product Datails Screen
-### Account Screen (@AppStorage)
-### Cart Screen
+### Product Screen - OK
+### Product Datails Screen - OK
+### Account Screen (@AppStorage) - OK
+### Cart Screen - In progress
