@@ -13,11 +13,13 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             Header()
-            ScrollView {
+            ScrollView(showsIndicators: false) {
+               
                 Banner()
                 Categories(categories: appModel.product.categories)
                 ProductListView()
             }
+           
         }
     }
 }
