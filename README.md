@@ -1,4 +1,4 @@
-# wgamer-app with Swift/SwiftUI
+# Wgamer App with Swift/SwiftUI
 
 ### Product Screen
 ### Product Datails Screen
