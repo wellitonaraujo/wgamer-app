@@ -22,9 +22,9 @@ struct TabBarView: View {
                     Image(systemName: "cart")
                 }
             
-            Text("Perfil")
+            AccountView()
                 .tabItem {
-                    Text("Perfil")
+                    Text("Conta")
                     Image(systemName: "person")
                 }
         }
