@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F93522B32AC704C100A2A8D7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93522B22AC704C100A2A8D7 /* SignInView.swift */; };
+		F93522B52AC707C400A2A8D7 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93522B42AC707C400A2A8D7 /* api.swift */; };
+		F93522B72AC70EDE00A2A8D7 /* loginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93522B62AC70EDE00A2A8D7 /* loginViewModel.swift */; };
 		F9BE4C9F2AC066A6007430B3 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE4C9E2AC066A6007430B3 /* AccountView.swift */; };
 		F9BE4CA12AC06F57007430B3 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE4CA02AC06F57007430B3 /* AccountViewModel.swift */; };
 		F9BE4CA42AC072E0007430B3 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE4CA32AC072E0007430B3 /* String+Ext.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F93522B22AC704C100A2A8D7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F93522B42AC707C400A2A8D7 /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		F93522B62AC70EDE00A2A8D7 /* loginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewModel.swift; sourceTree = "<group>"; };
 		F9BE4C9E2AC066A6007430B3 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		F9BE4CA02AC06F57007430B3 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		F9BE4CA32AC072E0007430B3 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
@@ -132,6 +138,7 @@
 				F9FF700D2ABEF3E40046B5E2 /* ProductListView.swift */,
 				F9EA56A32ABE3BC500A3168A /* ProductDetailView.swift */,
 				F9BE4C9E2AC066A6007430B3 /* AccountView.swift */,
+				F93522B22AC704C100A2A8D7 /* SignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				F9BE4CA02AC06F57007430B3 /* AccountViewModel.swift */,
+				F93522B62AC70EDE00A2A8D7 /* loginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -157,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				F9EA56A72ABE41C800A3168A /* AppModel.swift */,
+				F93522B42AC707C400A2A8D7 /* api.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -259,6 +268,7 @@
 				F9BE4CA42AC072E0007430B3 /* String+Ext.swift in Sources */,
 				F9EA56AC2ABE4E2900A3168A /* CardsProduct.swift in Sources */,
 				F9EA569A2ABDD27100A3168A /* TabBarView.swift in Sources */,
+				F93522B52AC707C400A2A8D7 /* api.swift in Sources */,
 				F9EA569C2ABDD32300A3168A /* HomeView.swift in Sources */,
 				F9EA56842ABDC5D000A3168A /* WGAMERApp.swift in Sources */,
 				F9BE4C9F2AC066A6007430B3 /* AccountView.swift in Sources */,
@@ -266,8 +276,10 @@
 				F9FF700E2ABEF3E40046B5E2 /* ProductListView.swift in Sources */,
 				F9BE4CA12AC06F57007430B3 /* AccountViewModel.swift in Sources */,
 				F9EA56A02ABDECF800A3168A /* Category.swift in Sources */,
+				F93522B32AC704C100A2A8D7 /* SignInView.swift in Sources */,
 				F9EA56A62ABE403400A3168A /* Product.swift in Sources */,
 				F9EA56A22ABE1A8300A3168A /* CardProduct.swift in Sources */,
+				F93522B72AC70EDE00A2A8D7 /* loginViewModel.swift in Sources */,
 				F9EA56A42ABE3BC500A3168A /* ProductDetailView.swift in Sources */,
 				F9EA56AE2ABE5E4500A3168A /* Categories.swift in Sources */,
 				F9BE4CA92AC07FB5007430B3 /* User.swift in Sources */,
